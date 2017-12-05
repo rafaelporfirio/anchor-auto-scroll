@@ -1,0 +1,88 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    transition: all 0.5s;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+header,
+section {
+    height: 100vh;
+    background-color: #F44336;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#secao-1 {
+    background-color: #2196F3;
+}
+
+p {
+    width: 50%;
+}
+
+#secao-2 {
+    background-color: #4CAF50;
+}
